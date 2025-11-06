@@ -1,0 +1,57 @@
+.quality{
+    background-color: #E0CBB4;
+}
+.container{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.subtext{
+    font-weight: 600;
+    color: #0b0803;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.quality-header{
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 32px;
+}
+.section-title{
+    font-family: "Aboreto", sans-serif;
+        font-size: 36px;
+        line-height: 1.2;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: #0b0803;
+        margin-bottom: 8px;
+}
+.quality-card{
+    border-radius: 32px;
+    margin-bottom: 32px;
+}
+.quality-intro{
+        font-size: 18px;
+        text-align: center;
+        color: #0b0803;
+}
+.quality-item-title{
+    font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        color: #0b0803;
+}
+.section-text{
+        font-size: 16px;
+        text-align: center;
+        color: #0b0803;
+}
+.quality-list{
+display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+}
