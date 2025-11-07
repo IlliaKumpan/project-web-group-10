@@ -2,10 +2,6 @@
     padding: 64px 0;
     background: #e0cbb4;
 }
-.container {
-            outline: 2px dashed magenta;
-            background: rgba(255, 0, 255, .05);
-        }
 .testimonials-title{
 font-family: "Aboreto", sans-serif;
 text-transform: uppercase;
@@ -57,6 +53,7 @@ min-width: 310px;
 @media only screen and (min-width:768px) {
 .testimonials-body {
     margin-bottom: 0;}}
+    
 .stars{
     display: flex;
     gap:4px;
