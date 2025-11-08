@@ -1,7 +1,9 @@
 /*! Location */
 /* #region Section 7th - Location */
-.section-location {
-    padding: 64px 0;
+
+.location-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .location-container {
@@ -11,6 +13,10 @@
     row-gap: 32px;
     color: #0b0803; /*--color-neutral-darkest*/
     fill: #0b0803; /*--color-neutral-darkest*/
+    /*outline: 1px solid blue;*/
+}
+ 
+@media only screen and (min-width: 768px) {
 }
 
 @media only screen and (min-width: 1440px) {
@@ -26,9 +32,13 @@
     min-width: 100%;
 }
 
+
 .map-iframe-wrapper {
     border-radius: 40px;
-    min-height: 307px;
+    min-width: none;
+    max-width: none;
+    width: 288px;
+    height: 307px;
     overflow: hidden;
 }
 
