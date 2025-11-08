@@ -1,6 +1,4 @@
-.quality{
-    background-color: #E0CBB4;
-}
+
 .container{
     padding-top: 64px;
     padding-bottom: 64px;
@@ -22,10 +20,6 @@
 }
 
 .section-title{
-    font-family: "Aboreto", sans-serif;
-        font-size: 36px;
-        line-height: 1.2;
-        letter-spacing: -0.01em;
         text-align: center;
         color: #0b0803;
         margin-bottom: 8px;
@@ -34,7 +28,6 @@
     .section-title{
         max-width: 452px;
             margin: 0 auto;
-            text-align: center;
     }
 
 }
@@ -52,7 +45,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    quality-item {
+    .quality-item {
         max-width: 421px;
     }
     .quality-card{

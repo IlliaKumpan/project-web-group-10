@@ -22,6 +22,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  background-color: #e0cbb4;
 }
 
 main {
@@ -29,4 +30,29 @@ main {
 }
 main:has(.back-link) {
   text-align: center;
+}
+
+
+/* #region Section's titles */
+h2 {
+    font-family: "Aboreto", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    font-size: 36px;
+}
+/* Styles for Tablet devices */
+@media only screen and (min-width: 1440px) {
+    h2 {
+        font-size: 48px;
+    }
+}
+/* #endregion */
+
+.button {
+    border-radius: 100px;
+    box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+    background: #6f4e37;
+    padding: 10px 24px;
 }
