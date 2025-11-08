@@ -14,9 +14,12 @@ width: 416px;
 .testimonials-list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap:24px;
-            width: 100%;
-        }
+    width: 100%;
+}
+
 .testimonials-item{
 border: 1px solid rgba(11, 8, 3, 0.15);
 background: #c29d84;

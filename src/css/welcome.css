@@ -47,11 +47,11 @@ margin-top: 32px;
 cursor: pointer;
 }
 
-.fl-button:hover,
+/*.fl-button:hover,
 .fl-button:focus {
   background-color: #A18268;
   outline: none;
-}
+}*/
 
 .fl-button svg,
 .fl-button svg * {
