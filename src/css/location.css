@@ -1,0 +1,134 @@
+/*! Location */
+/* #region Section 7th - Location */
+
+.container {
+    padding: 64px 16px;
+    /*outline: 1px solid green;*/
+}
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    row-gap: 32px;
+    color: #0b0803; /*--color-neutral-darkest*/
+    fill: #0b0803; /*--color-neutral-darkest*/
+    /*outline: 1px solid blue;*/
+}
+ 
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 64px 32px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        padding: 64px 64px;
+    }
+    .location-container {
+        flex-direction: row;
+        align-items: flex-start;
+        column-gap: 24px;
+    }
+}
+
+.location-address-wrapper,
+.map-iframe-wrapper {
+    min-width: 100%;
+    max-width: 375px;
+    /*outline: 2px solid red;*/
+}
+
+.map-iframe-wrapper {
+    border-radius: 40px;
+    width: 288px;
+    height: 307px;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+    .map-iframe-wrapper {
+        min-height: 377px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .location-address-wrapper {
+        min-width: 419px;
+    }
+    .map-iframe-wrapper {
+        min-width: 869px;
+        min-height: 697px;
+    }
+}
+
+
+.location-heading-tagline {
+    font-synthesis: weight;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.location-heading-two {
+    margin-bottom: 24px;
+}
+.location-text-normal {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/*.address-box {
+    outline: 1px solid olive;
+}*/
+
+
+.address-box-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.address-box-icon {
+    margin-bottom: 16px;
+}
+
+.address-box-item .heading-six {
+    font-family: "Aboreto", sans-serif;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.location-address-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.location-map-link {
+    display: inline-flex;
+    margin-top: 16px;
+    border-radius: 100px;
+    min-width: 138px;
+    min-height: 24px;
+    gap: 8px;
+    align-items: center;
+    text-transform: capitalize;
+    font-synthesis: weight;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) 
+and (max-width: 1439px) {
+    .address-box-list {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .address-box-item {
+        flex-basis: calc((100% - 40px * 2) / 3);
+    }
+}
+
+/* #endregion */
