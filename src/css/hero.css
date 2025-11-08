@@ -1,0 +1,141 @@
+.hero {
+  background-image: url("../img/2.hero/02-img.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  position: relative;
+      padding: 64px;
+       min-height: 100vh;
+   
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-container{
+
+}
+
+.hero-content {
+ 
+    position: relative;
+  width: 100%;
+  max-width: 560px; 
+}
+.hero h1 {
+  margin-bottom: 24px;
+  letter-spacing: 2px;
+  font-weight: 400;
+font-size: 56px;
+line-height: 120%;
+letter-spacing: -0.01em;
+ text-transform: uppercase;
+ font-family: "Quicksand", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+}
+
+.hero p {
+  margin-bottom: 32px;
+  font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+font-family: "Quicksand", sans-serif;
+font-optical-sizing: auto;
+font-style: normal;
+}
+.hero-btn {
+ display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #60432f;
+  color: #fff;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s ease;
+  width: 135px;
+height: 44px;
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+background: linear-gradient(180deg, #7a5237 0%, #60432f 100%);
+ box-shadow:
+    inset 0px 4px 2px rgba(255, 255, 255, 0.25),   /* основна нижня тінь */
+    inset 0px -4px 2px rgba(0, 0, 0, 0.25); /* легке верхнє світло rgba(0, 0, 0, 0.25)*/
+}
+
+.hero-btn:hover {
+  background: linear-gradient(180deg, #b58869 0%, #8a5e44 100%);
+ 
+  transform: translateY(-3px); 
+}
+
+/* версія для мобільних */
+@media screen and (max-width: 767px) {
+  .hero {
+    background-image: url("../img/2.hero/02-img@2x.jpg"); 
+    padding: 32px; 
+    min-height: 100vh;
+  }
+  .hero-content {
+    position: relative;
+    width: 100%;
+  max-width:  256px;
+
+}
+
+.hero h1 {
+font-weight: 400;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: -0.01em;
+}
+.hero p {
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+}
+}
+
+
+/* ======= Планшетна версія ======= */
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .hero {
+    background-image: url("../img/2.hero/02-img@2x.jpg"); /* якщо є планшетне фото */
+    padding: 48px;
+    min-height: 100vh;
+  }
+
+  .hero-content {
+    max-width: 560px;
+    height: 277px; /* як у макеті */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* вертикальне вирівнювання */
+  }
+
+  .hero h1 {
+    margin-bottom: 24px;
+    font-weight: 400;
+font-size: 40px;
+line-height: 120%;
+letter-spacing: -0.01em;
+  }
+
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 32px;
+    font-weight: 400;
+line-height: 150%;
+    
+  }
+
+  
+}
