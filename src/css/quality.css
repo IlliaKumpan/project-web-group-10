@@ -1,0 +1,135 @@
+
+.container{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.subtext{
+    font-weight: 600;
+    color: #0b0803;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.quality-header{
+    display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 32px;
+}
+
+.section-title{
+        text-align: center;
+        color: #0b0803;
+        margin-bottom: 8px;
+}
+@media screen and (min-width: 768px){
+    .section-title{
+        max-width: 452px;
+            margin: 0 auto;
+    }
+
+}
+        @media screen and (min-width: 1440px) {
+            .section-title {
+                font-size: 48px;
+                max-width: 768px;
+            }
+    
+        }
+
+.quality-card{
+    border-radius: 32px;
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+    .quality-item {
+        max-width: 421px;
+    }
+    .quality-card{
+        max-width:  421px;
+        max-height: 240px;
+    }
+
+}
+.quality-intro{
+        font-size: 18px;
+        text-align: center;
+        color: #0b0803;
+        
+}
+@media screen and (min-width: 1440px){
+    .quality-intro{
+        max-width: 768px;
+    }
+
+}
+.quality-item-title{
+    font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        color: #0b0803;
+        margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+    .quality-item:last-child .section-text {
+        width: 440px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+.section-text{
+        font-size: 16px;
+        text-align: center;
+        color: #0b0803;
+}
+.quality-list{
+display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media screen and (min-width: 768px) {
+.quality-list{
+    flex-direction: row;
+
+}
+
+}
+@media screen and (min-width: 768px) and (max-width: 1439px){
+    .quality-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto auto;
+            gap: 24px;
+            padding-inline: 16px;
+    }
+    
+            .quality-item:nth-child(3) {
+                grid-column: 1 / -1;
+            }
+    
+            .quality-card {
+                width: 100%;
+                
+            }
+    
+            .quality-item:nth-child(3) .quality-card {
+                width: 704px;
+                height: 401px;
+                object-fit: cover;
+            }
+
+}
+   
+    
+@media screen and (min-width: 1440px) {
+    .quality-list{
+        justify-content: space-between;
+    }
+
+}
