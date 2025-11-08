@@ -26,9 +26,11 @@
 
 .hero-content {
  
+
     position: relative;
   width: 100%;
   max-width: 560px; 
+  
 }
 .hero h1 {
   margin-bottom: 24px;
@@ -38,9 +40,9 @@ font-size: 56px;
 line-height: 120%;
 letter-spacing: -0.01em;
  text-transform: uppercase;
- font-family: "Quicksand", sans-serif;
 font-optical-sizing: auto;
 font-style: normal;
+font-family: "Aboreto", sans-serif;
 }
 
 .hero p {
@@ -53,6 +55,7 @@ font-optical-sizing: auto;
 font-style: normal;
 }
 .hero-btn {
+  font-family: "Quicksand", sans-serif;
  display: inline-flex;
   align-items: center;
   justify-content: center;
