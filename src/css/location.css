@@ -11,19 +11,9 @@
     row-gap: 32px;
     color: #0b0803; /*--color-neutral-darkest*/
     fill: #0b0803; /*--color-neutral-darkest*/
-
-}
- 
-@media only screen and (min-width: 768px) {
-    .section-location.container {
-        padding: 64px 32px;
-    }
 }
 
 @media only screen and (min-width: 1440px) {
-    .section-location.container {
-        padding: 64px 64px;
-    }
     .location-container {
         flex-direction: row;
         align-items: flex-start;
