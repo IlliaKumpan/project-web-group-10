@@ -16,25 +16,8 @@ line-height: 150%;
 letter-spacing: 0%;
 }
 
-.welcome-img-t {
-   width: 100%;
-  height: auto;
+.welcome-img {
   border-radius: 40px;
-  display: none;
-}
-
-.welcome-img-m {
-   width: 100%;
-  height: auto;
-  border-radius: 25px;
-  display: block;
-}
-
-.welcome-img-d {
-   width: 100%;
-  height: auto;
-  border-radius: 25px;
-  display: none;
 }
 
 
