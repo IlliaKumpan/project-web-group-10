@@ -18,7 +18,7 @@
 
     <title>Coffe Joy by WebGroup-10</title>
     <script type="module" crossorigin src="/project-web-group-10/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/project-web-group-10/assets/index-BT_PEqAc.css">
+    <link rel="stylesheet" crossorigin href="/project-web-group-10/assets/index-Wbole314.css">
   </head>
   <body>
     
@@ -36,7 +36,7 @@
           <use href="/project-web-group-10/assets/icons-CeqS-Mtk.svg#logo"></use>
         </svg>
       </a>
-      <button class="burger-btn" type="button" aria-label="open menu">
+      <button class="burger-btn" type="button" aria-label="open menu" data-menu-open>
         <svg class="burger-btn-icon" width="24" height="24">
           <use href="/project-web-group-10/assets/icons-CeqS-Mtk.svg#menu"></use>
         </svg>
@@ -52,7 +52,7 @@
   </div>
 
   <!-- Mobile menu -->
-  <div class="mobile">
+  <div class="mobile" data-menu>
     <div class="container">
       <nav class="mobile-nav">
         <div class="header-box">
@@ -67,20 +67,18 @@
               <use href="/project-web-group-10/assets/icons-CeqS-Mtk.svg#logo"></use>
             </svg>
           </a>
-          <button class="burger-btn" type="button" aria-label="open menu">
+          <button class="burger-btn" type="button" aria-label="open menu" data-menu-close>
             <svg class="burger-btn-icon" width="24" height="24">
               <use href="/project-web-group-10/assets/icons-CeqS-Mtk.svg#close"></use>
             </svg>
           </button>
         </div>
         <ul class="mobile-list">
-          <li class="mobile-list-item"><a href="#about_us">About us</a></li>
-          <li class="mobile-list-item"><a href="#benefits">Benefits</a></li>
-          <li class="mobile-list-item"><a href="#gallery">Gallery</a></li>
-          <li class="mobile-list-item">
-            <a href="#testimonials">Testimonial</a>
-          </li>
-          <li class="mobile-list-item"><a href="#location">Location</a></li>
+          <li class="mobile-list-item"><a href="#about_us" target="_blank" data-menu-close>About us</a></li>
+          <li class="mobile-list-item"><a href="#benefits" target="_blank">Benefits</a></li>
+          <li class="mobile-list-item"><a href="#gallery" target="_blank">Gallery</a></li>
+          <li class="mobile-list-item"><a href="#testimonials" target="_blank">Testimonial</a></li>
+          <li class="mobile-list-item"><a href="#location" target="_blank">Location</a></li>
         </ul>
       </nav>
     </div>
@@ -429,7 +427,7 @@
                   />
                   <!-- <span class="error-message">Error Text</span> -->
                 </label>
-                <button type="submit" class="subscribe-button button">
+                <button type="submit" class="subscribe-button button" data-modal-open>
                   Subscribe
                   <svg class="modal-subscribe-icon" width="24" height="24">
                     <use href="/project-web-group-10/assets/icons-CeqS-Mtk.svg#chevrons-right"></use>
@@ -902,9 +900,9 @@
     </div>
 </footer>
 
-    <div class="backdrop" data modal>
+    <div class="backdrop" data-modal>
     <div class="modal" >
-        <button type="button" class="btn-close" name="btn-close" data-modal-close><svg class="btn-close-icon" width="24" height="24"><use href="/project-web-group-10/assets/icons-CeqS-Mtk.svg#close"></use></svg></button>
+        <button type="button" class="btn-close" name="btn-close" data-modal-close><svg class="btn-close-icon" width="24" height="24" data-modal-clos><use href="/project-web-group-10/assets/icons-CeqS-Mtk.svg#close"></use></svg></button>
         <div class="modal-wrapper">
             <div class="modal-title">Welcome to the world of CoffeeJoy!</div>
             <div class="modal-text">Fresh brews, special offers, and cozy updates are coming your way.</div>
