@@ -1,9 +1,9 @@
 /*! Location */
 /* #region Section 7th - Location */
 
-.container {
-    padding: 64px 16px;
-    /*outline: 1px solid green;*/
+.location-container {
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .location-container {
@@ -18,15 +18,9 @@
 }
  
 @media only screen and (min-width: 768px) {
-    .container {
-        padding: 64px 32px;
-    }
 }
 
 @media only screen and (min-width: 1440px) {
-    .container {
-        padding: 64px 64px;
-    }
     .location-container {
         flex-direction: row;
         align-items: flex-start;
@@ -41,8 +35,11 @@
     /*outline: 2px solid red;*/
 }
 
+
 .map-iframe-wrapper {
     border-radius: 40px;
+    min-width: none;
+    max-width: none;
     width: 288px;
     height: 307px;
     overflow: hidden;
