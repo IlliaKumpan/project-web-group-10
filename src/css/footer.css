@@ -52,6 +52,11 @@
 .footer-icon {
     width: 32px;
     height: 32px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-icon:hover, .footer-icon:focus {
+    fill: #e0cbb4;
+    cursor: pointer;
 }
 
 .footer-nav {
@@ -60,11 +65,12 @@
     justify-content: center;
     align-items: center;
     gap: 32px;
-    transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-nav a:hover {
+.footer-nav a:hover, .footer-nav a:focus {
     border-bottom: 1px solid #0b0803;
     cursor: pointer;
+    opacity: 0.7;
 }
 
 .footer-copy {
