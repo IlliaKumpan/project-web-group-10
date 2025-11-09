@@ -1,11 +1,12 @@
 /* Styles for Mobile devices */
 .page-footer {
     background-color: #b58869;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .footer-container {
-    padding-top: 24px;
-    padding-bottom: 24px;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,17 +1,16 @@
+
+.subscribe-section{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 .subscribe-container {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  
 }
+
+
 
 @media only screen and (min-width: 1440px) {
   .subscribe-container {
-    padding: 64px 32px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .subscribe-container {
-    padding: 64px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,6 +58,8 @@
   .subscribe-form {
     display: flex;
     gap: 24px;
+    height: 44px;
+    margin-bottom: 16px;
   }
 }
 
@@ -107,6 +108,7 @@
 @media only screen and (min-width: 768px) {
   .subscribe-button {
     width: 158px;
+    margin-bottom: 0;
   }
 }
 

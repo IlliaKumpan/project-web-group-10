@@ -1,9 +1,10 @@
 /* #region MOBILE */
-.experience-section {}
-
-.experience-container {
+.experience-section {
     padding-top: 64px;
     padding-bottom: 64px;
+}
+
+.experience-container {
     display: flex;
     flex-direction: column;
     align-items: center;

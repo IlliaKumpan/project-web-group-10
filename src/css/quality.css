@@ -1,6 +1,9 @@
-.quality-container {
+.quality {
     padding-top: 64px;
     padding-bottom: 64px;
+}
+.quality-container {
+    
 }
 .subtext{
     font-weight: 600;
@@ -10,17 +13,16 @@
 }
 .quality-header{
     display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 24px;
-        margin-bottom: 32px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 32px;
 }
 
 .section-title{
         text-align: center;
         color: #0b0803;
-        margin-bottom: 8px;
 }
 
 .quality-item {
@@ -28,6 +30,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.quality-card{
+    margin-bottom: 32px;
+}
+.quality-item-title{
+    margin-bottom: 8px;
 }
 
 @media screen and (min-width: 768px){
@@ -37,7 +45,7 @@
     }
 
 }
-        @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
             .section-title {
                 font-size: 48px;
                 max-width: 768px;
@@ -58,7 +66,6 @@
         max-width:  421px;
         max-height: 240px;
     }
-
 }
 .quality-intro{
         font-size: 18px;

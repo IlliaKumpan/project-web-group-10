@@ -1,18 +1,20 @@
-.header-nav {
+.header {
+    padding: 12px 0;
+}
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 0;
 }
 
 @media only screen and (min-width: 768px) {
-    .header-nav {
+    .header {
         padding: 18px 32px;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .header-nav {
+    .header {
         padding: 18px 0;
     }
 }

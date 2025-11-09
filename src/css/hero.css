@@ -5,18 +5,18 @@
     background-repeat: no-repeat;
     color: #fff;
     margin: 0 auto;
-    max-width: 768px;   
-}
-.hero-container {
+    max-width: 768px;
     padding: 108.5px 32px;
 }
+.hero-container {
+    padding: 0;
+}
 .hero-content {
-    position: relative;
-    max-width: 256px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 256px;
 }
 
 .hero-title {
@@ -40,6 +40,7 @@
 @media (min-resolution: 2x) {
     .hero {
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/m-hero@2x.jpg");
+       
     }
 }
 /* ======= Планшетна версія ======= */
@@ -47,13 +48,14 @@
     .hero {
         max-width: 1440px;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/t-hero.jpg");
+        padding: 108.5px 0;
     }
-  .hero-container {
-    padding-top: 311.5px;
-    padding-bottom: 311.5px;
-  }
+    .hero-container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
   .hero-content {
-    max-width: 560px;
+    width: 560px;
   }
   @media (min-resolution: 2x) {
       .hero {
@@ -65,9 +67,11 @@
 @media only screen and (min-width: 1440px){
     .hero {
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/d-hero.jpg");
+        padding: 259px 0;
     }
     .hero-container {
-        padding: 259px 64px;
+        padding-left: 64px;
+        padding-right: 64px;
     }
     .hero-title {
         font-size: 56px;
