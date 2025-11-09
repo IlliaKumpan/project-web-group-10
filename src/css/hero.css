@@ -1,0 +1,77 @@
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/m-hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 768px;   
+}
+.hero-container {
+    padding: 108.5px 32px;
+}
+.hero-content {
+    position: relative;
+    max-width: 256px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hero-title {
+    font-family: "Aboreto", system-ui;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.hero-btn {
+    width: 135px;
+}
+@media (min-resolution: 2x) {
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/m-hero@2x.jpg");
+    }
+}
+/* ======= Планшетна версія ======= */
+@media only screen and (min-width: 768px) {
+    .hero {
+        max-width: 1440px;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/t-hero.jpg");
+    }
+  .hero-container {
+    padding-top: 311.5px;
+    padding-bottom: 311.5px;
+  }
+  .hero-content {
+    max-width: 560px;
+  }
+  @media (min-resolution: 2x) {
+      .hero {
+          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/t-hero@2x.jpg");
+      }
+  }
+}
+/* ======= Десктопна версія ======= */
+@media only screen and (min-width: 1440px){
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/d-hero.jpg");
+    }
+    .hero-container {
+        padding: 259px 64px;
+    }
+    @media (min-resolution: 2x) {
+    .hero {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/2.hero/d-hero@2x.jpg");
+    }
+}
+}

@@ -1,0 +1,123 @@
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .header-nav {
+        padding: 18px 32px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .header-nav {
+        padding: 18px 0;
+    }
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    width: 84px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.header-logo-icon {}
+
+.burger-btn {
+    width: 48px;
+    height: 48px;
+}
+
+@media only screen and (min-width: 768px) {
+    .burger-btn {
+        display: none;
+    }
+}
+
+.burger-btn-icon {}
+
+.nav-list {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-list {
+        display: flex;
+        gap: 32px;
+    }
+}
+
+.nav-item {}
+
+/* Hover  */
+.nav-item a {
+    transition: border-bottom 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-item a:hover {
+    border-bottom: 1px solid #0b0803;
+    cursor: pointer;
+}
+
+
+/* !mobile menu */
+
+.mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #e0cbb4;
+    z-index: 999;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+        transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.mobile.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: initial;
+    transition-delay: 0ms;
+}
+
+.mobile-nav {}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+
+
+.mobile-list {
+    color: #0b0803;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+/* Hover  */
+.mobile-list-item a {
+    transition: border-bottom 50ms ease-in;
+}
+
+.mobile-list-item a:hover {
+    border-bottom: 1px solid #0b0803;
+}
