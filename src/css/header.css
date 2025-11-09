@@ -63,7 +63,7 @@
 .nav-item a:hover, .nav-item a:focus {
     border-bottom: 1px solid #0b0803;
     cursor: pointer;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 
